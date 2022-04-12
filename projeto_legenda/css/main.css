@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: slategray;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.flex>div {
+    flex: 1 1 250px;
+    margin: 10px;
+}
+
+.container {
+    padding-top: 20%;
+    max-width: 800px;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/
+}
+
+.item {
+    /*background: tomato;*/
+    font-size: 1.5em;
+    overflow: hidden;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
